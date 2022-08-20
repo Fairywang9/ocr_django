@@ -1,0 +1,28 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.development
+    volumes:
+      - .:/app
+    ports:
+      - '27081:80'
+    container_name: wxcloud_ocr_django
+    labels:
+      - wxPort=27082
+      - hostPort=27081
+      - wxcloud=ocr_django
+      - role=container
+    environment:
+      - MYSQL_USERNAME=
+      - MYSQL_PASSWORD=
+      - MYSQL_ADDRESS=
+      - MYSQL_USERNAME=root
+      - MYSQL_PASSWORD=whf20000919
+      - MYSQL_ADDRESS=127.0.0.1
+      - MYSQL_ADDRESS=127.0.0.1:3306
+networks:
+  default:
+    external:
+      name: wxcb0

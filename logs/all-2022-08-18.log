@@ -1,0 +1,144 @@
+[2022-08-18 06:00:43,645] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:02:26,564] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:03:22,510] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:03:41,020] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/views.py changed, reloading.
+[2022-08-18 06:03:41,799] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:03:57,745] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:04:20,456] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:04:28,107] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:04:32,659] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:04:36,236] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:04:38,729] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:05:20,797] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:05:31,711] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:06:22,634] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:09:41,726] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:12:24,660] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:14:01,900] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:17:45,566] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:31:01,747] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:31:31,812] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:31:58,479] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:32:09,125] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2022-08-18 06:32:10,388] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 4}
+[2022-08-18 06:32:10,389] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET /api/count HTTP/1.1" 200 22
+[2022-08-18 06:32:11,546] [views.py:121] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-18 06:32:11,840] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 5}
+[2022-08-18 06:32:11,841] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2022-08-18 06:32:12,193] [views.py:121] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-18 06:32:12,537] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 6}
+[2022-08-18 06:32:12,876] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2022-08-18 06:32:50,247] [views.py:121] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-18 06:32:50,621] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 7}
+[2022-08-18 06:32:50,623] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2022-08-18 06:32:50,625] [views.py:121] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-18 06:32:50,830] [views.py:121] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-18 06:32:50,922] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 8}
+[2022-08-18 06:32:50,923] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2022-08-18 06:32:51,096] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 9}
+[2022-08-18 06:32:51,097] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2022-08-18 06:33:35,136] [views.py:121] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-18 06:33:35,458] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 10}
+[2022-08-18 06:33:35,459] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2022-08-18 06:33:35,661] [views.py:121] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-18 06:33:35,912] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 11}
+[2022-08-18 06:33:35,913] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 23
+[2022-08-18 06:33:36,484] [views.py:121] [views:update_count] [INFO]- update_count req: b'{"action":"clear"}'
+[2022-08-18 06:33:37,566] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 0}
+[2022-08-18 06:33:37,567] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2022-08-18 06:36:25,602] [views.py:121] [views:update_count] [INFO]- update_count req: b'{"action":"inc"}'
+[2022-08-18 06:36:26,826] [views.py:96] [views:counter] [INFO]- response result: {"code": 0, "data": 1}
+[2022-08-18 06:36:26,827] [basehttp.py:161] [basehttp:log_message] [INFO]- "POST /api/count HTTP/1.1" 200 22
+[2022-08-18 06:50:32,141] [autoreload.py:251] [autoreload:trigger_reload] [INFO]- /app/wxcloudrun/views.py changed, reloading.
+[2022-08-18 06:50:33,219] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 06:50:51,705] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 07:18:25,233] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 07:20:53,869] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 07:21:08,874] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 07:21:15,337] [autoreload.py:637] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2022-08-18 14:47:38,673] [basehttp.py:161] [basehttp:log_message] [INFO]- "GET / HTTP/1.1" 200 10137
+[2022-08-18 14:47:41,365] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /api/count
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/root/.local/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/root/.local/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/root/.local/lib/python3.8/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/root/.local/lib/python3.8/site-packages/pymysql/connections.py", line 633, in connect
+    self._request_authentication()
+  File "/root/.local/lib/python3.8/site-packages/pymysql/connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "/root/.local/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/root/.local/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/root/.local/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (9449, 'CynosDB serverless instance is resuming, please try connecting again')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/root/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/app/wxcloudrun/views.py", line 86, in counter
+    rsp = get_count()
+  File "/app/wxcloudrun/views.py", line 102, in get_count
+    data = Counters.objects.get(id=1)
+  File "/root/.local/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+  File "/root/.local/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/root/.local/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/root/.local/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/root/.local/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1173, in execute_sql
+    cursor = self.connection.cursor()
+  File "/root/.local/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/django/db/backends/base/base.py", line 259, in cursor
+    return self._cursor()
+  File "/root/.local/lib/python3.8/site-packages/django/db/backends/base/base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "/root/.local/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/root/.local/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/root/.local/lib/python3.8/site-packages/django/db/backends/base/base.py", line 219, in ensure_connection
+    self.connect()
+  File "/root/.local/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/django/db/backends/base/base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/root/.local/lib/python3.8/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "/root/.local/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 234, in get_new_connection
+    connection = Database.connect(**conn_params)
+  File "/root/.local/lib/python3.8/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "/root/.local/lib/python3.8/site-packages/pymysql/connections.py", line 633, in connect
+    self._request_authentication()
+  File "/root/.local/lib/python3.8/site-packages/pymysql/connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "/root/.local/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/root/.local/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/root/.local/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.OperationalError: (9449, 'CynosDB serverless instance is resuming, please try connecting again')
+[2022-08-18 14:47:41,479] [basehttp.py:161] [basehttp:log_message] [ERROR]- "GET /api/count HTTP/1.1" 500 244409
